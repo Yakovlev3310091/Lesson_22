@@ -10,7 +10,7 @@ parts = cwd.parts
 basefolder_index = parts.index(project_name)
 basepath = Path(*parts[: basefolder_index + 1])
 sys.path.append(str(basepath))
-from ttools.skyprotests.tests import SkyproTestCase  # noqa: E402
+from lesson22.ttools.skyprotests.tests import SkyproTestCase  # noqa: E402
 
 
 class ClassTestCase(SkyproTestCase):

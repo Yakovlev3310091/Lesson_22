@@ -19,3 +19,9 @@ class SomeClass:
 
     def asc_sorting(self):
         return sorted(self.lst, reverse=False)
+
+# some_1 = SomeClass()
+#
+# print(some_1.sorted())
+# print(some_1.sorting())
+# print(some_1.asc_sorting())

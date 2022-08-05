@@ -75,11 +75,11 @@ class Person:
 if __name__ == '__main__':
     boat = Boat()
     car = Car()
-    kamikadze = Electroscooter()
+    scooter = Electroscooter()
 
     person = Person()
     person.use_transport(boat)
     print('=' * 10)
     person.use_transport(car)
     print('=' * 10)
-    person.use_transport(kamikadze)
+    person.use_transport(scooter)
